@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 30" width="15" height="30">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1751 -2220L169 -2220L169 1423L-1751 1423Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #a7a8ad } 
+	</style>
+	<g id="Sofa Home Page " clip-path="url(#cp1)">
+		<g id="Group 24">
+			<g id="back">
+				<path id="Path 4" class="shp0" d="M13.06 15L0.24 28.55C-0.08 28.88 -0.08 29.42 0.24 29.75C0.55 30.08 1.06 30.08 1.37 29.75L14.76 15.6C15.08 15.26 15.08 14.73 14.76 14.4L1.37 0.25C1.22 0.09 1.01 0 0.81 0C0.61 0 0.4 0.08 0.24 0.25C-0.07 0.58 -0.07 1.12 0.24 1.45L13.06 15Z" />
+			</g>
+		</g>
+	</g>
+</svg>

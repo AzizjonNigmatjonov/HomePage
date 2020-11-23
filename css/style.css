@@ -4,3 +4,112 @@
 	list-style-type: none;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header .container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav .container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-item {
+	margin: 0 50px;
+}
+
+.nav-item:hover {
+	transform: scale(1.1);
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 16px;
+	color: #a7a8ad;
+	font-weight: 400;
+	text-transform: capitalize;
+	transition: all 0.4s;
+}
+
+.nav-link:hover {
+	color: #333;
+}
+
+.nav-image-last {
+	display: flex;
+}
+
+.nav-img-search {
+	margin-right: 100px;
+}
+
+.nav-image-busket {
+	position: relative;
+}
+
+.nav-img-busket-top {
+	position: absolute;
+	left: 10px;
+	top: -10px;
+}
+
+.nav-img-busket-bottom {
+	position: absolute;
+	left: 2px;
+	bottom: 7px;
+}
+
+.main {
+	background-image: url("../img/main-sofa.png");
+	background-repeat: no-repeat;
+	background-position: 430px 50px;
+	background-size: 850px;
+}
+
+.main .container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.american {
+	padding-top: 200px;
+	padding-bottom: 60px;
+}
+
+.american-title {
+	width: 400px;
+	font-size: 35px;
+	color: #a7a8ad;
+	font-weight: 400;
+}
+
+.american-button {
+	border: 1px solid #a7a8ad;
+	outline: none;
+	font-size: 16px;
+	letter-spacing: 4px;
+	color: #a7a8ad;
+	background-color: #fff;
+	font-weight: 400;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+.american-button:hover {
+	color: #333;
+	background-color: #ffffff11;
+	border: 1px solid #333;
+}

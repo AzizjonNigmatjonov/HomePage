@@ -95,7 +95,7 @@ body {
 	font-weight: 400;
 }
 
-.american-button {
+.american-link {
 	border: 1px solid #a7a8ad;
 	outline: none;
 	font-size: 16px;
@@ -106,9 +106,11 @@ body {
 	padding: 15px 30px;
 	text-transform: uppercase;
 	margin-top: 80px;
+	display: inline-block;
+	text-decoration: none;
 }
 
-.american-button:hover {
+.american-link:hover {
 	color: #333;
 	background-color: #ffffff11;
 	border: 1px solid #333;
@@ -207,7 +209,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.high-button {
+.high-link {
 	border: 1px solid #a7a8ad;
 	outline: none;
 	font-size: 16px;
@@ -217,9 +219,10 @@ body {
 	font-weight: 400;
 	padding: 15px 30px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
-.high-button:hover {
+.high-link:hover {
 	color: #333;
 	background-color: #ffffff11;
 	border: 1px solid #333;
@@ -310,4 +313,78 @@ body {
 	background-color: #a7a8ad;
 	display: inline-block;
 	margin-right: 20px;
+}
+
+.join .container {
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.image-join {
+	margin-left: 30px;
+}
+
+.join-img {
+	width: 380px;
+}
+
+.text-join {
+	margin-left: 40px;
+}
+
+
+.join-title {
+	font-size: 60px;
+	color: #a7a8ad;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.join-subtext {
+	font-size: 16px;
+	color: #a7a8ad;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.join-form {
+	margin-top: 30px; 
+}
+
+.join-input {
+	display: inline-block;
+	font-size: 16px;
+	color: #a7a8ad;
+	font-weight: 400;
+	border: 1px solid #a7a8ad;
+	outline: none;
+	padding: 10px 30px;
+	width: 305px;
+	background-color: #fff;
+}
+
+.join-input:hover {
+	color: #333;
+	border: 1px solid #333;
+	background-color: #ffffff11;
+}
+
+.join-label {
+	font-size: 16px;
+	letter-spacing: 4px;
+	color: #a7a8ad;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border: 1px solid #a7a8ad;
+	margin-left: 20px;
+	background-color: #fff;
+}
+
+.join-label:hover {
+	background-color: #ffffff11;
+	color: #333;
+	border: 1px solid #333;
 }
